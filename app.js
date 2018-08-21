@@ -1,5 +1,6 @@
 (function () {
     //Initialize Firebase
+    console.log("here");
     const config = {
         apiKey: "AIzaSyAKm0AVptl4F3LAEgbI786qbkJyvY8Z2uo",
         authDomain: "user-authentication-ce703.firebaseapp.com",
@@ -55,5 +56,5 @@
             btnLogout.classList.add('hide');
         }
 
-    })
+    });
 }());
